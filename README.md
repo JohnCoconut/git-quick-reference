@@ -43,3 +43,19 @@ Reference: https://stackoverflow.com/questions/3161204/find-the-parent-branch-of
 #### set remote url
 
 `git remote set-url origin https://github.com/user/repo.git`
+
+#### rename a git branch
+
+to rename current branch,
+
+`git branch -m newname`
+
+else,
+
+`git branch -m oldname newname`
+
+It will add a new branch to the remote when it's pushed, but the old branch won't be deleted.
+
+#### stage files with regular expression
+
+`git add src/*.cpp`
